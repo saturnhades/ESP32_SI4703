@@ -1,0 +1,48 @@
+# ==============================
+# OS junk
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Editor / IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ==============================
+# Arduino build artifacts
+# ==============================
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.eep
+
+# Arduino temporary build folders
+build/
+tmp/
+
+# ==============================
+# PlatformIO (future-proof)
+# ==============================
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# User-specific configs
+# ==============================
+*.user
+*.local
